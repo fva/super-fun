@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7DED1421663F77D006F223D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DED1411663F77D006F223D /* UIKit.framework */; };
+		A7DED1441663F77D006F223D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DED1431663F77D006F223D /* Foundation.framework */; };
+		A7DED1461663F77D006F223D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DED1451663F77D006F223D /* CoreGraphics.framework */; };
+		A7DED14C1663F77D006F223D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7DED14A1663F77D006F223D /* InfoPlist.strings */; };
+		A7DED14E1663F77D006F223D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DED14D1663F77D006F223D /* main.m */; };
+		A7DED1521663F77D006F223D /* SuperFunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DED1511663F77D006F223D /* SuperFunAppDelegate.m */; };
+		A7DED1551663F77D006F223D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DED1531663F77D006F223D /* MainStoryboard.storyboard */; };
+		A7DED1581663F77D006F223D /* SuperFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DED1571663F77D006F223D /* SuperFunViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7DED13D1663F77D006F223D /* SuperFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DED1411663F77D006F223D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7DED1431663F77D006F223D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7DED1451663F77D006F223D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7DED1491663F77D006F223D /* SuperFun-Info.plist */ = {isa = PBXFileReference; path = "SuperFun-Info.plist"; sourceTree = "<group>"; };
+		A7DED14B1663F77D006F223D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7DED14D1663F77D006F223D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7DED14F1663F77D006F223D /* SuperFun-Prefix.pch */ = {isa = PBXFileReference; path = "SuperFun-Prefix.pch"; sourceTree = "<group>"; };
+		A7DED1501663F77D006F223D /* SuperFunAppDelegate.h */ = {isa = PBXFileReference; path = SuperFunAppDelegate.h; sourceTree = "<group>"; };
+		A7DED1511663F77D006F223D /* SuperFunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperFunAppDelegate.m; sourceTree = "<group>"; };
+		A7DED1541663F77D006F223D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A7DED1561663F77D006F223D /* SuperFunViewController.h */ = {isa = PBXFileReference; path = SuperFunViewController.h; sourceTree = "<group>"; };
+		A7DED1571663F77D006F223D /* SuperFunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperFunViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7DED13A1663F77D006F223D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DED1421663F77D006F223D /* UIKit.framework in Frameworks */,
+				A7DED1441663F77D006F223D /* Foundation.framework in Frameworks */,
+				A7DED1461663F77D006F223D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7DED1321663F77C006F223D = {
+			isa = PBXGroup;
+			children = (
+				A7DED1471663F77D006F223D /* SuperFun */,
+				A7DED1401663F77D006F223D /* Frameworks */,
+				A7DED13E1663F77D006F223D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7DED13E1663F77D006F223D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7DED13D1663F77D006F223D /* SuperFun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7DED1401663F77D006F223D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7DED1411663F77D006F223D /* UIKit.framework */,
+				A7DED1431663F77D006F223D /* Foundation.framework */,
+				A7DED1451663F77D006F223D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7DED1471663F77D006F223D /* SuperFun */ = {
+			isa = PBXGroup;
+			children = (
+				A7DED1501663F77D006F223D /* SuperFunAppDelegate.h */,
+				A7DED1511663F77D006F223D /* SuperFunAppDelegate.m */,
+				A7DED1531663F77D006F223D /* MainStoryboard.storyboard */,
+				A7DED1561663F77D006F223D /* SuperFunViewController.h */,
+				A7DED1571663F77D006F223D /* SuperFunViewController.m */,
+				A7DED1481663F77D006F223D /* Supporting Files */,
+			);
+			path = SuperFun;
+			sourceTree = "<group>";
+		};
+		A7DED1481663F77D006F223D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7DED1491663F77D006F223D /* SuperFun-Info.plist */,
+				A7DED14A1663F77D006F223D /* InfoPlist.strings */,
+				A7DED14D1663F77D006F223D /* main.m */,
+				A7DED14F1663F77D006F223D /* SuperFun-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7DED13C1663F77D006F223D /* SuperFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DED15B1663F77D006F223D /* Build configuration list for PBXNativeTarget "SuperFun" */;
+			buildPhases = (
+				A7DED1391663F77D006F223D /* Sources */,
+				A7DED13A1663F77D006F223D /* Frameworks */,
+				A7DED13B1663F77D006F223D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperFun;
+			productName = SuperFun;
+			productReference = A7DED13D1663F77D006F223D /* SuperFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7DED1341663F77C006F223D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ItsyBitsy Labs";
+			};
+			buildConfigurationList = A7DED1371663F77C006F223D /* Build configuration list for PBXProject "SuperFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7DED1321663F77C006F223D;
+			productRefGroup = A7DED13E1663F77D006F223D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7DED13C1663F77D006F223D /* SuperFun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7DED13B1663F77D006F223D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DED14C1663F77D006F223D /* InfoPlist.strings in Resources */,
+				A7DED1551663F77D006F223D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7DED1391663F77D006F223D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DED14E1663F77D006F223D /* main.m in Sources */,
+				A7DED1521663F77D006F223D /* SuperFunAppDelegate.m in Sources */,
+				A7DED1581663F77D006F223D /* SuperFunViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7DED14A1663F77D006F223D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DED14B1663F77D006F223D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7DED1531663F77D006F223D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DED1541663F77D006F223D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7DED1591663F77D006F223D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7DED15A1663F77D006F223D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7DED15C1663F77D006F223D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperFun/SuperFun-Prefix.pch";
+				INFOPLIST_FILE = "SuperFun/SuperFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7DED15D1663F77D006F223D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperFun/SuperFun-Prefix.pch";
+				INFOPLIST_FILE = "SuperFun/SuperFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7DED1371663F77C006F223D /* Build configuration list for PBXProject "SuperFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DED1591663F77D006F223D /* Debug */,
+				A7DED15A1663F77D006F223D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DED15B1663F77D006F223D /* Build configuration list for PBXNativeTarget "SuperFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DED15C1663F77D006F223D /* Debug */,
+				A7DED15D1663F77D006F223D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7DED1341663F77C006F223D /* Project object */;
+}
